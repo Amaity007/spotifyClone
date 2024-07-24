@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* body{
+   overflow-x: hidden;
+} */
+
+/* Style of nav bar below */
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar img {
+    height: 42px;
+    width: 135px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.navbar .navbarMenu {
+    height: 100%;
+    width: 500px;
+    /* background-color: red; */
+    margin-left: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbarMenu a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.navbarMenu span {
+    color: white;
+}
+
+.navbarMenu a:hover {
+    color: rgb(50, 206, 50);
+    /* text-decoration: underline; */
+}
+
+/* Style of the div after the nav bar below */
+.afterNavBar {
+    position: relative;
+    background-color: rgb(89, 89, 202);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.afterNavBar .bgImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(3px);
+    /* -webkit-filter: blur(8px); */
+}
+
+.afterNavBar .innerStyle {
+    position: absolute;
+    background-color: white;
+    width: 285px;
+    height: 500px;
+    bottom: 0;
+    margin-left: 236px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.innerStyle img {
+    height: 100%;
+    width: 100%;
+    padding: 50px 7px;
+}
+
+.earSpeaker {
+    position: absolute;
+    height: 6px;
+    width: 45px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 23px;
+}
+
+.sideDivOfAfter {
+    position: absolute;
+    /* background-color: red; */
+    width: 550px;
+    height: 150px;
+    bottom: 45%;
+    left: 50%;
+}
+
+.sideDivOfAfter h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+}
+
+.afterNavBar .getBtn {
+    position: absolute;
+    height: 45px;
+    width: 175px;
+    background-color: white;
+    left: 50%;
+    top: 60%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    /* transition: transform .2s; */
+}
+
+/* Style of the second div  after the afternavbar below */
+.secondBar {
+    /* background-color: red; */
+    height: 580px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondBar .logo {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 165px;
+}
+
+.secondBar .text {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* gap: 90px; */
+    padding: 0px 165px;
+}
+
+.logo img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.text .text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text .text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text .text3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text .text4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style of the third div  after the second bar below */
+.thirdBar {
+    /* background-image: linear-gradient(to top, #06275a, #36397f, #664aa3, #9b58c3, #d563dd); */
+    background-image: linear-gradient(to top, #112315, #264c2f, #3d794b, #56a969, #71dc88);
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.thirdBar span {
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+}
+
+/* Style of the fourth div  after the third bar below */
+.fourthBar {
+    width: 100%;
+    height: 560px;
+}
+
+/* Style of the fifth div  after the fourth bar below */
+.fifthBar {
+    background-image: linear-gradient(to top, #06275a, #36397f, #664aa3, #9b58c3, #d563dd);
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fifthBar span {
+    font-weight: 900;
+    font-size: 90px;
+    color: white;
+}
+
+.fifthBar .getBtn {
+    height: 45px;
+    width: 175px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* hover effect style of all the button of class getBtn */
+.getBtn:hover {
+    transform: scale(1.08);
+    background-color: rgb(30, 187, 85);
+}
+
+/* Style of the footer below */
+.footerBar {
+    background-color: black;
+    width: 100%;
+    height: 540px;
+}
+
+.div1 {
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    gap: 180px;
+}
+
+.firstDiv {
+    /* background-color: red; */
+    height: auto;
+    width: 60%;
+    padding: 67px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstDiv img {
+    height: 42px;
+    width: 135px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    gap: 25px;
+    /* font-weight: 700; */
+}
+
+.child a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.child a:hover {
+    color: rgb(50, 206, 50);
+    /* text-decoration: underline; */
+}
+
+.secondDiv {
+    /* background-color: red; */
+    height: 70px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 23%;
+    left: 71%;
+}
+
+.secondDiv img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.div2 {
+    /* background-color: red; */
+    display: flex;
+    margin-left: 11%;
+    margin-top: 6%;
+}
+
+.part1 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.part1 a:hover {
+    color: rgb(50, 206, 50);
+    /* text-decoration: underline; */
+}
